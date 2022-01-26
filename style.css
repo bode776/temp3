@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Outfit:wght@400;700&family=Poppins:wght@300;400;700&family=VT323&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Lightgray);
+}
+main .card {
+  background-color: var(--White);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .text {
+  margin: 20px 0 0;
+}
+main h1 {
+  font-size: 22px;
+  color: var(--Darkblue);
+  text-align: center;
+}
+main p {
+  font-size: 15px;
+  color: var(--Grayishblue);
+  margin: 10px 0;
+  text-align: center;
+}
+footer {
+  height: 30px;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: whitesmoke;
+}
+footer span:first-child,
+footer span:last-child {
+  color: gold;
+}
+footer span:nth-child(2) {
+  color: rgb(255, 49, 49);
+}
